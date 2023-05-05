@@ -1,0 +1,65 @@
+#viewport {
+    width: 1500px;
+    height: 800px;
+    position: relative;
+    top: 10;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body {
+    background-image: url("final\ photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+p {
+    margin-left: 400px;
+    margin-right: 200px;
+    padding: 20px;
+
+}
+
+.Bouldie {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+    height: 150px;
+    width: 140px;
+}
+
+#viewport {
+    width: 30%;
+    height: 30%;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+#Matrix {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 2;
+    left: 42%;
+}
+
+#jumpCount {
+    position: absolute;
+    left: 10px;
+    bottom: 10px
+}
+
+#instructions {
+    position: absolute;
+    left: 10px;
+    top: 10px
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+</p>
+
+<nav>
+    <i class="fa fa-car"></i> My Story
+
+    </div>
+    <a href="./Index.HTML"><i class="fa fa-car"></i>Home</a>
+
+    <br>
+
+    <a href="./contact.html"><i class="fa fa-car"></i>Contact </a>
+    </div>
+</nav>
+
+<head>
+    <meta charset="utf-8">
+    <title>Tutorials Points</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header role="banner"></header>
+    <h1>My Profolio</h1>
+    <p>This page should be tried in safari, Chrome or Mozila</p>
+    </header>
+
+</body>
+
+
+<div class="main-content div" data test="hi">
+    <p>Hi, I am Fiyin</p>
+    <p>I am 14, I love to play basketball and my favourite colour is yellow.
+        I love to draw and bake pastries.
+        I play diffrent instruments,
+        such as the clairinet, saxophone, violin and the drums.
+        My favourie subject is math, art and science and this is
+        my first time coding.</p>
+
+    <img src="profotlio.jpg" alt="Profile Photo" width="20%">
+
+    <section>
+        <a href="Index2.HTML">Jungle-Quest</a></p>
+        </footer>
+    </section>
+
+
+
+
+
+    <h3>User Details Form</h3>
+    <form id="myForm" class="myForm">
+
+        <label for="first-name">First Name </label>
+        <input type="text" name="first-name" id="first-name" placeholder="Enter First Name Here.">
+
+        <br>
+
+        <label for="email">email </label>
+        <input type="email" name="email" id="email" placeholder="Enter Email Here.">
+
+        <br>
+
+        <label for="birthday">birthday</label>
+        <input type="date" name="birthday" id="birthday">
+
+        <br>
+        <br>
+
+        <input type="submit" value="Submit Form">
+
+        <div class="d-flex flex-column justify-content-center w-100 h-100">
+
+            <div class="d-flex flex-column justify-content-center align-items-center">
+
+            </div>
+            </h5>
+            </a>
+        </div>
+</div>
+</div>
+
+</form>
+
+<script>
+    var first_name = "Fiyin"
+    var last_name = "Filani"
+
+    function calculation(firstnumber, secondnumber) {
+        var sumOfTwonumbers = firstnumber + secondnumber
+
+        return sumOfTwonumbers
+
+    }
+
+
+    var sum = calculation(5, 10);
+
+    console.log("sum of two nums", sum)
+
+    var funnyemoji = "🤯"
+    console.log(funnyemoji);
+
+    function changename(customText) {
+        document.getElementById("Intro").innerHTML = "Hey, its me Fiyin!"
+    }
+    document.getElementById("myForm").addEventListener("submit", handleFormSubmit)
+
+    function handleFormSubmit(event) {
+        event.preventDefault()
+
+        var name = document.getElementById("first-name").value
+        var email = document.getElementById("email").value
+        var birthday = document.getElementById("birthday").value
+
+        console.log(name)
+        console.log(email)
+        console.log(birthday)
+
+        document.getElementById("Intro").innerHTML = name
+
+    }
+
+
+
+
+    var jokesArray = [
+        "Whats the best thing about Switzerland? I don't know but the flag is a big plus.",
+        "Did you hear about the clausterphobic astronaut?   He just needed some space",
+        "Why dont scienctists trust atoms?  Because they make everything up",
+        "What do you call a parade of rabbits hopping backwards  A receiding hare line",
+        "What did the left eye say to the right eye   Between you and me something smells ",
+    ]
+
+    function generatejoke() {
+        var randomNumber = Math.random() * 4
+
+        var randomInteger = Math.floor(randomNumber);
+
+        var randomJoke = jokesArray[randomInteger]
+
+        document.getElementById("jokes").innerHTML = randomJoke;
+
+
+    }
+</script>
+<section>
+    <h1> Jokes Generator
+        <h1 class="joke title" Joke Generato></h1>
+        <div id="jokes">
+            Why did the the chicken cross the road?
+        </div>
+
+        <div> Here are my Jokes</div>
+        <button class="joke button" onclick="generatejoke()">Generate Joke</button>
+
+
+        </var>
+</section>
+</h1>
+
+</var>
+
+</div>
+</body>
+
+</html>

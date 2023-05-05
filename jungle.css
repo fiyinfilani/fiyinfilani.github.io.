@@ -1,0 +1,28 @@
+h1 {
+    border-style: dashed;
+    border-radius: 40px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-bottom: 70px;
+}
+
+.Darkgreen {
+    color: rgb(246, 255, 246);
+    font-family: chubby choo;
+    font-size: 100px;
+    ;
+}
+
+h1 {
+    color: white;
+}
+
+body {
+    background-image: url('final\ photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    font-size: xx-large;
+}
